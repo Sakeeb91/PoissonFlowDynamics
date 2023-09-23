@@ -28,7 +28,7 @@ The first notebook aims to provide a basic introduction to gradient-based dynami
 ### Potential Function
 The potential function used in this notebook is:
 
-\[ U(x) = \frac{1}{\| x - [1, 1] \|} \]
+![equation](https://latex.codecogs.com/svg.image?U(x)%20=%20\frac{1}{|%20x%20-%20[1,%201]%20|})
 
 ### Illustration
 - The notebook visualizes the trajectory of a particle moving in this potential field, starting from a random initial position.
@@ -45,7 +45,7 @@ The second notebook delves deeper, employing a more complex potential field to i
 ### Potential Function
 The complex potential function used in this notebook is:
 
-\[ U(x) = -\frac{1}{\| x - [1, 1] \|} + \frac{1}{\| x - [2, 1] \|} - \frac{1}{\| x - [1.5, 2] \|} \]
+![equation](https://latex.codecogs.com/svg.image?U(x)%20=%20-\frac{1}{|%20x%20-%20[1,%201]%20|}%20+%20\frac{1}{|%20x%20-%20[2,%201]%20|}%20-%20\frac{1}{|%20x%20-%20[1.5,%202]%20|})
 
 ### Illustration
 - This notebook visualizes the trajectory of a particle in a more intricate potential field, revealing how the particle interacts with multiple forces in its environment.
