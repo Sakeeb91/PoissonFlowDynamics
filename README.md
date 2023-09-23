@@ -4,9 +4,7 @@
 ## Overview
 These notebooks illustrate the concept of gradient-based dynamics, focusing on a discretized form of motion called Poisson flow, modeled by the equation:
 
-\[
-F(x) = x - \nabla U(x)
-\]
+![equation](https://latex.codecogs.com/svg.image?&space;F(x)=x-\nabla&space;U(x))
 
 Here, the motion of a particle is influenced by a potential field represented by a potential function \( U(x) \). The particle moves according to the negative gradient of the potential function at each step, simulating a form of gradient descent on the potential landscape.
 
